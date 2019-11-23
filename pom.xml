@@ -84,11 +84,11 @@
 
 	</dependencies>
 	<distributionManagement>
-    		<snapshotRepository>
-			<id>artifactory</id>
-			<name>ip-172-31-7-162.us-east-2.compute.internal-snapshots</name>
-			<url>http://3.17.77.132:8081/artifactory/libs-snapshot-local</url>
-    		</snapshotRepository>
+	    <snapshotRepository>
+		<id>snapshots</id>
+		<name>a6c90efea0a9-snapshots</name>
+		<url>http://3.17.77.132:8081/artifactory/libs-snapshot-local</url>
+	    </snapshotRepository>
 	</distributionManagement>
 
 	<build>
